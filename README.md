@@ -1,8 +1,11 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/862765f9e994492db70a171783e76517)](https://www.codacy.com/app/AnthonyMoulin/appear?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=AnthonyMoulin/appear&amp;utm_campaign=Badge_Grade)
 
 [![Build Status](https://travis-ci.org/AnthonyMoulin/appear.svg?branch=master)](https://travis-ci.org/AnthonyMoulin/appear)
+<<<<<<< HEAD
 
 [![npm](https://img.shields.io/npm/v/appear-js.svg)]()
+=======
+>>>>>>> fc8da7eac4b573ca838b8b1faf23e2026469164f
 
 # appear-js
 
