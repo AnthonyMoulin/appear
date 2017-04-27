@@ -1,0 +1,109 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.0
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: 'C:\\Users\\Administrateur\\Desktop\\tp-component\\appear-js',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory C:\Users\Administrateur\AppData\Roaming\npm-cache\appear-js\1.0.1\package.tgz not in flight; packing
+9 verbose correctMkdir C:\Users\Administrateur\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+10 info lifecycle appear-js@1.0.1~prepublish: appear-js@1.0.1
+11 silly lifecycle appear-js@1.0.1~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ 'C:\\Users\\Administrateur\\AppData\\Roaming\\npm-cache\\appear-js\\1.0.1\\package.tgz',
+12 verbose tar pack   'C:\\Users\\Administrateur\\Desktop\\tp-component\\appear-js' ]
+13 verbose tarball C:\Users\Administrateur\AppData\Roaming\npm-cache\appear-js\1.0.1\package.tgz
+14 verbose folder C:\Users\Administrateur\Desktop\tp-component\appear-js
+15 verbose addLocalTarball adding from inside cache C:\Users\Administrateur\AppData\Roaming\npm-cache\appear-js\1.0.1\package.tgz
+16 verbose correctMkdir C:\Users\Administrateur\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+17 silly cache afterAdd appear-js@1.0.1
+18 verbose afterAdd C:\Users\Administrateur\AppData\Roaming\npm-cache\appear-js\1.0.1\package\package.json not in flight; writing
+19 verbose correctMkdir C:\Users\Administrateur\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+20 verbose afterAdd C:\Users\Administrateur\AppData\Roaming\npm-cache\appear-js\1.0.1\package\package.json written
+21 silly publish { name: 'appear-js',
+21 silly publish   version: '1.0.1',
+21 silly publish   homepage: 'https://anthonymoulin.github.io/appear/',
+21 silly publish   description: 'A minimal popup',
+21 silly publish   keywords: [ 'appear', 'prompt', 'alert' ],
+21 silly publish   main: 'index.js',
+21 silly publish   scripts: { test: 'mocha' },
+21 silly publish   author: { name: 'AnthonyMoulin' },
+21 silly publish   license: 'MIT',
+21 silly publish   devDependencies: { mocha: '3.2.0', chai: '3.5.0', jsdom: '9.12.0' },
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'git+https://github.com/AnthonyMoulin/appear.git' },
+21 silly publish   readme: '[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3d9cbbae1637401abed4eafba5d31c29)](https://www.codacy.com/app/AnthonyMoulin/appear?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=AnthonyMoulin/appear&amp;utm_campaign=Badge_Grade)\n\n# appear-js\n\n\n\n## Introduction\n\nA pop-up is a graphical user interface ( GUI ) display area, usually a small window, that suddenly appears ("pops up") in the foreground of the visual interface. Pop-ups can be initiated by a single or double mouse click or rollover (sometimes called a mouseover), and also possibly by voice command or can simply be timed to occur. A pop-up window must be smaller than the background window or interface; otherwise, it\'s a replacement interface.\n\nWhat I have done is an example of a little "pop_up" solution which allows you to set different log levels with color, informing the user about the website activity.\n\nthis is my first task asked from my teacher to show my first steps in the JavaScript world. \n\n### Inspiration\n\nThis little popup uses the material design Responsive in pourcentage, pixels,em etc. Basically, it makes more liberal use of grid-based layouts, responsive animations and transitions, padding, and depth effects such as lighting and shadows.\n\nFor instance, this little popup "appear" is made through differents attributes called box-shadow, position, bottom, min-width, max-width, padding-left, text-align, background and background-color.\n\n\n\ntalking about the material design\nResponsive (%)\nTransition C553\nPop up qui ne bloque pas la page\n\nThis popup is a transposition of the PHP Psr-3 logger interface but for client side.\n\n\n§ Learning Theme\n\n§ Pattern Module \n\n§ context d\'execution (modifier le this)\n\n§ Evenement \n\n§ Fonction executée imédiatement...\n\n\n#### Example\n\nBasic usage for this component.\n\nappear->emergency("coucou");\n\n##### Author\n\nAnthonyMoulin\n\n###### Licence\n\nAnthonyMoulin Copyright (c) 2017 All rights reserved.\n',
+21 silly publish   readmeFilename: 'README.md',
+21 silly publish   bugs: { url: 'https://github.com/AnthonyMoulin/appear/issues' },
+21 silly publish   _id: 'appear-js@1.0.1',
+21 silly publish   _shasum: '186c768ee204ac57055f200ce68eb52e6daf36c8',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name appear-js
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'appear-js',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   escapedName: 'appear-js',
+26 silly mapToRegistry   name: 'appear-js',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/appear-js
+28 verbose publish registryBase https://registry.npmjs.org/
+29 silly publish uploading C:\Users\Administrateur\AppData\Roaming\npm-cache\appear-js\1.0.1\package.tgz
+30 verbose request uri https://registry.npmjs.org/appear-js
+31 verbose request sending authorization for write operation
+32 info attempt registry request try #1 at 10:43:59
+33 verbose request using bearer token for auth
+34 verbose request id 148bacf9c1c9a23a
+35 http request PUT https://registry.npmjs.org/appear-js
+36 http 403 https://registry.npmjs.org/appear-js
+37 verbose headers { 'content-type': 'application/json',
+37 verbose headers   'cache-control': 'max-age=300',
+37 verbose headers   'content-length': '95',
+37 verbose headers   'accept-ranges': 'bytes',
+37 verbose headers   date: 'Wed, 26 Apr 2017 08:43:59 GMT',
+37 verbose headers   via: '1.1 varnish',
+37 verbose headers   connection: 'keep-alive',
+37 verbose headers   'x-served-by': 'cache-cdg8731-CDG',
+37 verbose headers   'x-cache': 'MISS',
+37 verbose headers   'x-cache-hits': '0',
+37 verbose headers   'x-timer': 'S1493196238.410697,VS0,VE1302',
+37 verbose headers   vary: 'Accept-Encoding' }
+38 verbose request invalidating C:\Users\Administrateur\AppData\Roaming\npm-cache\registry.npmjs.org\appear-js on PUT
+39 error publish Failed PUT 403
+40 verbose stack Error: "You cannot publish over the previously published version 1.0.1." : appear-js
+40 verbose stack     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+40 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+40 verbose stack     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+40 verbose stack     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:187:22)
+40 verbose stack     at emitTwo (events.js:106:13)
+40 verbose stack     at Request.emit (events.js:191:7)
+40 verbose stack     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1048:10)
+40 verbose stack     at emitOne (events.js:96:13)
+40 verbose stack     at Request.emit (events.js:188:7)
+40 verbose stack     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:969:12)
+41 verbose statusCode 403
+42 verbose pkgid appear-js
+43 verbose cwd C:\Users\Administrateur\Desktop\tp-component\appear-js
+44 error Windows_NT 6.1.7601
+45 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+46 error node v6.10.0
+47 error npm  v3.10.10
+48 error code E403
+49 error "You cannot publish over the previously published version 1.0.1." : appear-js
+50 error If you need help, you may report this error at:
+50 error     <https://github.com/npm/npm/issues>
+51 verbose exit [ 1, true ]
