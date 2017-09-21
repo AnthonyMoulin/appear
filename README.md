@@ -1,5 +1,7 @@
 
-[![Codacy Badge](https://travis-ci.org/AnthonyMoulin/appear.svg?branch=master
+https://travis-ci.org/AnthonyMoulin/appear.svg?branch=master
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/5b30230e7bdc419186f24418c2ccc0a8)](https://www.codacy.com/app/AnthonyMoulin/appear?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=AnthonyMoulin/appear&amp;utm_campaign=Badge_Grade)
 
 # appear-js
 
