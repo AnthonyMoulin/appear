@@ -8,6 +8,8 @@
 
 # appear-js
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/5b30230e7bdc419186f24418c2ccc0a8)](https://www.codacy.com/app/AnthonyMoulin/appear?utm_source=github.com&utm_medium=referral&utm_content=AnthonyMoulin/appear&utm_campaign=badger)
+
 ## Introduction
 
 A pop-up is a graphical user interface ( GUI ) display area, usually a small window, that suddenly appears ("pops up") in the foreground of the visual interface. Pop-ups can be initiated by a single or double mouse click or rollover (sometimes called a mouseover), and also possibly by voice command or can simply be timed to occur. A pop-up window must be smaller than the background window or interface; otherwise, it's a replacement interface.
